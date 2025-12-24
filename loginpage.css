@@ -1,0 +1,82 @@
+body{
+   background-color: rgb(205, 50, 8);
+   margin:3px;
+   padding: 0px;
+}
+.fullpage{
+    display: flex;
+    gap: 3px;
+}
+.box{
+    height: 67px;
+    width: 65px;
+    margin-top: 3px;
+    
+    padding: 5px;
+    background-color: rgb(35, 33, 33);
+    transition: background-color 1s ease-out;
+    
+
+}
+.box:hover {
+    background: rgb(205, 50, 8);
+    transition: none;
+    
+}
+body:hover{
+    animation: colorchange 10s infinite;
+}
+@keyframes colorchange{
+    0%{
+        background-color: black
+    }
+    50%{
+        background-color: rgb(205, 50, 8);
+    }
+    100%{
+        background-color: black
+    }
+}
+
+.overlay{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+    background-color: rgb(40, 40, 40);
+    box-shadow: 4px ;
+
+    height: 450px;
+    width: 350px;
+
+    
+
+}
+
+.signin{
+    margin-left: 17vh;
+    margin-top: 50px;
+    color: rgb(205, 50, 8);
+    font-size: 35px;
+}
+
+.inputbox{
+    margin-left: 35px;
+    
+}
+
+#input{
+    height: 30px;
+    width: 40vh;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    padding-bottom: 5px;
+   background-color: rgb(87, 88, 88);
+    color: white;
+    font-size: large;
+    border: none;
+}
+
+.i{
+    color: rgb(205, 50, 8);
+}
