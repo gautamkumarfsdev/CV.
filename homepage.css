@@ -1,161 +1,180 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    color: white;
-    background-color: black;
-    
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+
+  background-color: black;
 }
 
-.middelnevbar{
-    display: flex;
-    justify-content: center;
-    gap:55px ;
-    width: 450px;
-    box-shadow: 0 0 25px rgb(32, 174, 236);
-    border-radius: 15px;
-    
+.middelnevbar {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  width: 450px;
 
-}
-.logo{
-    box-shadow: 0 0 25px rgb(32, 174, 236);
-    border-radius: 15px;
-}
-.nevbar{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 10px;
-    transition: all 0.25s ease-out;
-    
-}
-.fixed{
-    
-}
-.download{
-    background-color: rgb(32, 174, 236);
-    border-radius: 50px;
-    height: 50px;
-    width: 100px;
-    font-family: sans-serif;
-    
+  box-shadow: 0 0 25px rgb(32, 174, 236);
+  border-radius: 15px;
 }
 
-.intro{
-    padding: 40px;
-    margin-left: 35px;
-    z-index: 1;
-    position:absolute;
-    
+.logo {
+  box-shadow: 0 0 25px rgb(32, 174, 236);
+  border-radius: 15px;
 }
 
-.small{
-    color: rgb(32, 174, 236);
-    height: 0px;
+.nevbar {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  transition: all 0.25s ease-out;
 }
 
-.big{
-    font-size: xx-large;
-    height: 15px;
-    
-    
+.fixed {
 }
 
-.name{
-    color: rgb(32, 174, 236);
-    
-    border-radius: 15px;
-    
+.download {
+  background-color: rgb(32, 174, 236);
+  border-radius: 50px;
+  height: 50px;
+  width: 100px;
+  font-family: sans-serif;
+}
+
+.intro {
+  padding: 40px;
+  margin-left: 35px;
+  z-index: 1;
+  position: absolute;
+}
+
+.small {
+  color: rgb(32, 174, 236);
+  height: 0px;
+}
+
+.big {
+  font-size: xx-large;
+  height: 15px;
+}
+
+.name {
+  color: rgb(32, 174, 236);
+
+  border-radius: 15px;
 }
 
 .profile {
-    border-radius: 15px;
-    box-shadow: 0 0 25px rgb(32, 174, 236);
-    height: 280px;
-    width: 500px;
-    padding: 15px;
-    
-
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgb(32, 174, 236);
+  height: 280px;
+  width: 500px;
+  padding: 15px;
 }
 
-.circle{
-    width: 450px;
-    height: 450px;
-    border: 3px dashed rgb(32, 174, 236);
-    border-radius: 50%;
-    position: relative;
-    margin-left: 40px;
-    background-image: url(gautam.png);
+.circle {
+  width: 450px;
+  height: 450px;
+  border: 3px dashed rgb(32, 174, 236);
+  border-radius: 50%;
+  position: relative;
+  margin-left: 40px;
+  background-image: url(gautam.png);
 
-    background-size: cover;
-    
-    
-    left: 55%;
-    top: 80px;
-    z-index: 10;
+  background-size: cover;
 
-    
+  left: 55%;
+  top: 80px;
+  z-index: 10;
 }
 
-.logo3{
-    width: 40px;
-    position: absolute;
-    top: -25px;
-    left: 50%;
+.logo3 {
+  width: 40px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
 
-    transform: translateX(-50%);
-    animation: move 8s linear infinite;
-    transform-origin: 50% 245px;
-    
+  transform: translateX(-50%);
+  animation: move 8s linear infinite;
+  transform-origin: 50% 245px;
 }
 
-.l1{animation-delay: 0s;}
-.l2{animation-delay: -1.5s;}
-.l3{animation-delay: -3s;}
-.l4{animation-delay: -4.5s;}
-.l5{animation-delay: -6s;}
+.l1 {
+  animation-delay: 0s;
+}
 
+.l2 {
+  animation-delay: -1.5s;
+}
 
+.l3 {
+  animation-delay: -3s;
+}
+
+.l4 {
+  animation-delay: -4.5s;
+}
+
+.l5 {
+  animation-delay: -6s;
+}
 
 @keyframes move {
-    from {
-        transform: translateX(-50%) rotate(0deg);
-    }to{
-        transform: translateX(-50%) rotate(360deg);
-    }
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
 }
 
-.circle2{
-    width: 300px;
-    height: 300px;
-    border: 3px dashed rgb(32, 174, 236);
-    border-radius: 50%;
-    position: relative;
-    margin-left: 40px;
-    left: 60.5%;
-    top: -295px;
-    z-index: 7;
-    
-
-    
+.circle2 {
+  width: 300px;
+  height: 300px;
+  border: 3px dashed rgb(32, 174, 236);
+  border-radius: 50%;
+  position: relative;
+  margin-left: 40px;
+  left: 60.5%;
+  top: -295px;
+  z-index: 7;
 }
 
-.logo4{
-    width: 50px;
-    position: absolute;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: move 7s linear infinite;
-    transform-origin: 50% 170px;
-    
-    
+.logo4 {
+  width: 50px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: move 7s linear infinite;
+  transform-origin: 50% 170px;
 }
 
-.m1{animation-delay: 0s;}
-.m2{animation-delay: -1s;}
-.m3{animation-delay: -3s;}
-.m4{animation-delay: -4s;}
-.m5{animation-delay: -5s;}
-.m6{animation-delay: -6s;}
-.m7{animation-delay: -7s;}
+.m1 {
+  animation-delay: 0s;
+}
+
+.m2 {
+  animation-delay: -1s;
+}
+
+.m3 {
+  animation-delay: -3s;
+}
+
+.m4 {
+  animation-delay: -4s;
+}
+
+.m5 {
+  animation-delay: -5s;
+}
+
+.m6 {
+  animation-delay: -6s;
+}
+
+.m7 {
+  animation-delay: -7s;
+}
